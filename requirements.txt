@@ -1,0 +1,31 @@
+# Core
+numpy
+pandas
+scikit-learn
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Time-series analysis
+statsmodels
+
+# Deep learning
+torch
+torchvision
+pytorch-tcn
+reformer-pytorch
+
+# ML baseline (optional but used in notebook)
+catboost
+optuna
+
+# Explainability (optional but used in notebook)
+shap
+lime
+
+# Notebook runtime
+jupyter
+ipykernel
+ipywidgets

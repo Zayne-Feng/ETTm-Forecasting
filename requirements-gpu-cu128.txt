@@ -1,0 +1,10 @@
+# GPU pathway for Windows + NVIDIA GPUs using the CUDA 12.8 PyTorch wheel index.
+# Install this FIRST, then install requirements-gpu-rest.txt.
+# Using a separate file avoids accidentally keeping a CPU-only torch build.
+
+--index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://pypi.org/simple
+
+torch
+torchvision
+torchaudio
