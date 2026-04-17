@@ -1,0 +1,77 @@
+{
+  "DL-M96": {
+    "LSTM": {
+      "hidden": 80,
+      "layers": 1,
+      "dropout": 0.5678997883128378,
+      "input_dropout": 0.3342241025641473,
+      "head_dropout": 0.35164299639788443,
+      "lr": 0.00028417306778086434,
+      "epochs": 6,
+      "patience": 2,
+      "input_noise_std": 0.08
+    },
+    "GRU": {
+      "hidden": 80,
+      "layers": 1,
+      "dropout": 0.5678997883128378,
+      "input_dropout": 0.3342241025641473,
+      "head_dropout": 0.35164299639788443,
+      "lr": 0.00028417306778086434,
+      "epochs": 6,
+      "patience": 2,
+      "input_noise_std": 0.08
+    },
+    "Informer": {
+      "d_model": 96,
+      "nhead": 4,
+      "layers": 1,
+      "ffn": 128,
+      "dropout": 0.47243561663863076,
+      "pool_last_k": 16,
+      "droppath": 0.19507143064099164,
+      "lr": 0.00013287464588398687,
+      "epochs": 7,
+      "patience": 2,
+      "input_noise_std": 0.03
+    },
+    "DLinear": {
+      "ma_window": 37,
+      "lr": 0.0005674602372263573,
+      "epochs": 5,
+      "patience": 2,
+      "input_noise_std": 0.08
+    },
+    "TCN": {
+      "channels": 80,
+      "levels": 2,
+      "kernel_size": 3,
+      "dropout": 0.31953442280127675,
+      "lr": 0.0003872938396247323,
+      "epochs": 9,
+      "patience": 2,
+      "input_noise_std": 0.08
+    },
+    "MLP": {
+      "hidden": 192,
+      "layers": 1,
+      "dropout": 0.35327236865873834,
+      "lr": 0.0003763669558766286,
+      "epochs": 8,
+      "patience": 2,
+      "input_noise_std": 0.05
+    },
+    "iTransformer": {
+      "d_model": 96,
+      "nhead": 4,
+      "layers": 2,
+      "ffn": 192,
+      "dropout": 0.3147863310179268,
+      "droppath": 0.05696756190799966,
+      "lr": 0.00023215521736070897,
+      "epochs": 7,
+      "patience": 3,
+      "input_noise_std": 0.05
+    }
+  }
+}
