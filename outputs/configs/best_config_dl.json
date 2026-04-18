@@ -55,23 +55,23 @@
     "MLP": {
       "hidden": 192,
       "layers": 1,
-      "dropout": 0.35327236865873834,
-      "lr": 0.0003763669558766286,
+      "dropout": 0.4430922856909668,
+      "lr": 0.0005328445424574021,
       "epochs": 8,
-      "patience": 2,
+      "patience": 3,
       "input_noise_std": 0.05
     },
     "iTransformer": {
       "d_model": 96,
       "nhead": 4,
-      "layers": 2,
-      "ffn": 192,
-      "dropout": 0.3147863310179268,
-      "droppath": 0.05696756190799966,
-      "lr": 0.00023215521736070897,
-      "epochs": 7,
+      "layers": 1,
+      "ffn": 160,
+      "dropout": 0.3703198306502703,
+      "droppath": 0.18422410256414734,
+      "lr": 0.00022907181456849684,
+      "epochs": 10,
       "patience": 3,
-      "input_noise_std": 0.05
+      "input_noise_std": 0.08
     }
   }
 }
