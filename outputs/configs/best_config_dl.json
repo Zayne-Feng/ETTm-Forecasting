@@ -55,10 +55,10 @@
     "MLP": {
       "hidden": 192,
       "layers": 1,
-      "dropout": 0.4430922856909668,
-      "lr": 0.0005328445424574021,
+      "dropout": 0.35327236865873834,
+      "lr": 0.0003763669558766286,
       "epochs": 8,
-      "patience": 3,
+      "patience": 2,
       "input_noise_std": 0.05
     },
     "iTransformer": {
